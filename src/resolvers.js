@@ -1,7 +1,7 @@
-import { merger } from 'lodash'
+import { merge } from 'lodash'
 
-import {  } from './rockRoute/resolver'
+import { RockRouteResolver } from './rockRoute/resolver'
 
 export default merge(
-
+  RockRouteResolver
 )

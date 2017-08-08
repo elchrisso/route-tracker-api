@@ -1,7 +1,7 @@
 import { id as ObjectId } from 'monk'
 import db from '../db'
 
-const spells = db.get('RockRoute')
+const rockRoutes = db.get('RockRoute')
 
 export const RockRouteResolver = {
   Query: {

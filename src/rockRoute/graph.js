@@ -6,6 +6,6 @@ export const RockRoute = `
 `
 
 export const RockRouteQueries = `
-  RockRoute(_id: String!): Spell
+  RockRoute(_id: String!): RockRoute
   allRockRoutes: [RockRoute]
 `
