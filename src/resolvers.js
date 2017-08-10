@@ -1,7 +1,11 @@
 import { merge } from 'lodash'
 
-import { RockRouteResolver } from './rockRoute/resolver'
+import { RockRouteResolver } from './graph/rockRoute/resolver'
+import { UserResolver } from './graph/user/resolver'
+import { CommentResolver } from './graph/comment/resolver'
 
 export default merge(
-  RockRouteResolver
+  RockRouteResolver,
+  UserResolver,
+  CommentResolver
 )

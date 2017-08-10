@@ -1,5 +1,5 @@
 import { id as ObjectId } from 'monk'
-import db from '../db'
+import db from '../../db/index'
 
 const rockRoutes = db.get('RockRoute')
 
